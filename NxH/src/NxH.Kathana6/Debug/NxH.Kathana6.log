@@ -1,0 +1,9 @@
+﻿  GameMemoryService.cpp
+  main.cpp
+  MenuView.cpp
+  PointerManager.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generando código...
+D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6\main.cpp(1,1): warning C4747: Llamada a '_DllMain@12' administrado: no se puede ejecutar código administrado bajo el bloqueo del cargador, incluido el punto de entrada del archivo DLL y las llamadas alcanzadas desde dicho punto
+  GameMemoryService.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  NxH.Kathana6.vcxproj -> D:\Eduardo\projects\git\study\tantra\dll\NxH\Debug\NxH.Kathana6.dll

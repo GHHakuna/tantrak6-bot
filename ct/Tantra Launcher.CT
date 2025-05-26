@@ -5,12 +5,14 @@
       <ID>8</ID>
       <Description>"punteros"</Description>
       <Options moHideChildren="1"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <Address/>
       <CheatEntries>
         <CheatEntry>
           <ID>7</ID>
           <Description>"hp current ptr"</Description>
+          <LastState Value="28927" RealAddress="2CE3D11C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>"HTLauncher.exe"+00A1F6B0</Address>
@@ -21,6 +23,7 @@
         <CheatEntry>
           <ID>6</ID>
           <Description>"hp max ptr"</Description>
+          <LastState Value="28927" RealAddress="2CE3D118"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"HTLauncher.exe"+00A1F6B0</Address>
           <Offsets>
@@ -30,6 +33,7 @@
         <CheatEntry>
           <ID>11</ID>
           <Description>"mp max ptr"</Description>
+          <LastState Value="8311" RealAddress="2CF70374"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"HTLauncher.exe"+00A1F7A0</Address>
           <Offsets>
@@ -39,11 +43,91 @@
         <CheatEntry>
           <ID>12</ID>
           <Description>"mp current ptr"</Description>
+          <LastState Value="8311" RealAddress="2CF70378"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>"HTLauncher.exe"+00A1F7A0</Address>
           <Offsets>
             <Offset>330</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"mob id ptr"</Description>
+          <LastState Value="0" RealAddress="2CE3D188"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Offsets>
+            <Offset>180</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"trigger ptr"</Description>
+          <LastState Value="0" RealAddress="2CE3D184"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Offsets>
+            <Offset>17c</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"skill id"</Description>
+          <LastState Value="0" RealAddress="2CE3D158"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Offsets>
+            <Offset>150</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"mark"</Description>
+          <LastState Value="0" RealAddress="2CE3D150"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Offsets>
+            <Offset>148</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"last dmg"</Description>
+          <LastState Value="81" RealAddress="2CE3D114"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Offsets>
+            <Offset>10c</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"[4] no gasta mp / no delay | [2] no skill"</Description>
+          <LastState Value="0" RealAddress="2CE3D1A4"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>00FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Offsets>
+            <Offset>19c</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"saltar 3 ( 2 -&gt; 4) no delay"</Description>
+          <LastState Value="1" RealAddress="2CE3D1E0"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>00FF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Offsets>
+            <Offset>1D8</Offset>
           </Offsets>
         </CheatEntry>
       </CheatEntries>
@@ -52,26 +136,14 @@
       <ID>9</ID>
       <Description>"absolutos"</Description>
       <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <Address/>
       <CheatEntries>
         <CheatEntry>
-          <ID>1</ID>
-          <Description>"hp current"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>4 Bytes</VariableType>
-          <Address>HTLauncher.exe+A65030</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>2</ID>
-          <Description>"mp current"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>4 Bytes</VariableType>
-          <Address>HTLauncher.exe+A65034</Address>
-        </CheatEntry>
-        <CheatEntry>
           <ID>3</ID>
           <Description>"hp max"</Description>
+          <LastState Value="28927" RealAddress="10A64FA0"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>HTLauncher.exe+A64Fa0</Address>
@@ -79,9 +151,26 @@
         <CheatEntry>
           <ID>4</ID>
           <Description>"mp max"</Description>
+          <LastState Value="8311" RealAddress="10A64FAC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>HTLauncher.exe+A64fac</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"atk max"</Description>
+          <LastState Value="50378" RealAddress="10A64FCC"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>HTLauncher.exe+A64FCC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"atk min"</Description>
+          <LastState Value="42585" RealAddress="10A64FC8"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>HTLauncher.exe+A64FC8</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
