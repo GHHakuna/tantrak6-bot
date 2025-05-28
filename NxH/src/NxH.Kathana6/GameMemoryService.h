@@ -15,4 +15,7 @@ public:
     int GetHpCurrent();
     int GetMpMax();
     int GetMpCurrent();
+    float GetCoordX();
+    float GetCoordY();
+    float GetCoordZ();
 };

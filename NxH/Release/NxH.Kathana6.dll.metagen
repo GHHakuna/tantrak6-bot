@@ -32,6 +32,9 @@ Class GameMemoryService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     GetHpCurrent(): PrivateScope, Public, HideBySig
     GetMpMax(): PrivateScope, Public, HideBySig
     GetMpCurrent(): PrivateScope, Public, HideBySig
+    GetCoordX(): PrivateScope, Public, HideBySig
+    GetCoordY(): PrivateScope, Public, HideBySig
+    GetCoordZ(): PrivateScope, Public, HideBySig
 Class NxHKathana6.MenuView: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

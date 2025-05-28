@@ -42,6 +42,13 @@ namespace NxHKathana6 {
 	private: System::Windows::Forms::Label^ lbHpMax;
 	private: System::Windows::Forms::Label^ lbMpMax;
 	private: System::Windows::Forms::Label^ lbMpCurrent;
+	private: System::Windows::Forms::Label^ lbx;
+	private: System::Windows::Forms::Label^ lby;
+	private: System::Windows::Forms::Label^ lbz;
+
+
+
+
 
 
 
@@ -68,6 +75,9 @@ namespace NxHKathana6 {
 			this->lbHpMax = (gcnew System::Windows::Forms::Label());
 			this->lbMpMax = (gcnew System::Windows::Forms::Label());
 			this->lbMpCurrent = (gcnew System::Windows::Forms::Label());
+			this->lbx = (gcnew System::Windows::Forms::Label());
+			this->lby = (gcnew System::Windows::Forms::Label());
+			this->lbz = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// cbEnableLootBug
@@ -112,7 +122,7 @@ namespace NxHKathana6 {
 			this->lbMpMax->AutoSize = true;
 			this->lbMpMax->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->lbMpMax->Location = System::Drawing::Point(137, 48);
+			this->lbMpMax->Location = System::Drawing::Point(12, 82);
 			this->lbMpMax->Name = L"lbMpMax";
 			this->lbMpMax->Size = System::Drawing::Size(58, 17);
 			this->lbMpMax->TabIndex = 4;
@@ -123,25 +133,61 @@ namespace NxHKathana6 {
 			this->lbMpCurrent->AutoSize = true;
 			this->lbMpCurrent->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->lbMpCurrent->Location = System::Drawing::Point(137, 65);
+			this->lbMpCurrent->Location = System::Drawing::Point(12, 99);
 			this->lbMpCurrent->Name = L"lbMpCurrent";
 			this->lbMpCurrent->Size = System::Drawing::Size(80, 17);
 			this->lbMpCurrent->TabIndex = 3;
 			this->lbMpCurrent->Text = L"MP Current";
 			// 
+			// lbx
+			// 
+			this->lbx->AutoSize = true;
+			this->lbx->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->lbx->Location = System::Drawing::Point(9, 285);
+			this->lbx->Name = L"lbx";
+			this->lbx->Size = System::Drawing::Size(14, 17);
+			this->lbx->TabIndex = 5;
+			this->lbx->Text = L"x";
+			// 
+			// lby
+			// 
+			this->lby->AutoSize = true;
+			this->lby->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->lby->Location = System::Drawing::Point(115, 285);
+			this->lby->Name = L"lby";
+			this->lby->Size = System::Drawing::Size(14, 17);
+			this->lby->TabIndex = 6;
+			this->lby->Text = L"y";
+			// 
+			// lbz
+			// 
+			this->lbz->AutoSize = true;
+			this->lbz->Font = (gcnew System::Drawing::Font(L"Yu Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->lbz->Location = System::Drawing::Point(224, 285);
+			this->lbz->Name = L"lbz";
+			this->lbz->Size = System::Drawing::Size(14, 17);
+			this->lbz->TabIndex = 7;
+			this->lbz->Text = L"z";
+			// 
 			// MenuView
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(284, 261);
+			this->ClientSize = System::Drawing::Size(334, 311);
+			this->Controls->Add(this->lbz);
+			this->Controls->Add(this->lby);
+			this->Controls->Add(this->lbx);
 			this->Controls->Add(this->lbMpMax);
 			this->Controls->Add(this->lbMpCurrent);
 			this->Controls->Add(this->lbHpMax);
 			this->Controls->Add(this->lbHpCurrent);
 			this->Controls->Add(this->cbEnableLootBug);
 			this->MaximizeBox = false;
-			this->MaximumSize = System::Drawing::Size(300, 300);
-			this->MinimumSize = System::Drawing::Size(300, 300);
+			this->MaximumSize = System::Drawing::Size(350, 350);
+			this->MinimumSize = System::Drawing::Size(350, 350);
 			this->Name = L"MenuView";
 			this->ShowIcon = false;
 			this->Text = L".:: NxH KathanaVI ::.";
@@ -165,6 +211,10 @@ namespace NxHKathana6 {
 		lbMpMax->Text = "MP Max: " + gs->GetMpMax().ToString();
 		lbHpCurrent->Text = "HP Current: " + gs->GetHpCurrent().ToString();
 		lbMpCurrent->Text = "MP Current: " + gs->GetMpCurrent().ToString();
+
+		lbx->Text = "x: " + gs->GetCoordX().ToString("0.00");
+		lby->Text = "y: " + gs->GetCoordY().ToString("0.00");
+		lbz->Text = "z: " + gs->GetCoordZ().ToString("0.00");
 	}
 	};
 }

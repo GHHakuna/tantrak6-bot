@@ -9,6 +9,11 @@ GameMemoryService::GameMemoryService() {
     pm->AddPointer("HpMax", "HTLauncher.exe", 0x00A1F6B0, gcnew array<DWORD>{ 0x110 });
     pm->AddPointer("MpCurrent", "HTLauncher.exe", 0x00A1F7A0, gcnew array<DWORD>{ 0x330 });    
     pm->AddPointer("MpMax", "HTLauncher.exe", 0x00A1F7A0, gcnew array<DWORD>{ 0x32C });
+    
+    
+    pm->AddPointer("CoordX", "HTLauncher.exe", 0x0003272C, gcnew array<DWORD>{ 0xA8 });
+    pm->AddPointer("CoordY", "HTLauncher.exe", 0x0003272C, gcnew array<DWORD>{ 0xB0 });
+    pm->AddPointer("CoordZ", "HTLauncher.exe", 0x0003272C, gcnew array<DWORD>{ 0xB4 });
 }
 
 void GameMemoryService::SetLootBug(bool enabled) {
@@ -40,4 +45,19 @@ int GameMemoryService::GetMpMax()
 int GameMemoryService::GetMpCurrent()
 {
     return pm->ReadInt("MpCurrent");
+}
+
+float GameMemoryService::GetCoordX()
+{
+    return pm->ReadFloat("CoordX");
+}
+
+float GameMemoryService::GetCoordY()
+{
+    return pm->ReadFloat("CoordY");
+}
+
+float GameMemoryService::GetCoordZ()
+{
+    return pm->ReadFloat("CoordZ");
 }
