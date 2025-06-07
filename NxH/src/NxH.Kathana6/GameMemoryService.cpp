@@ -61,3 +61,18 @@ float GameMemoryService::GetCoordZ()
 {
     return pm->ReadFloat("CoordZ");
 }
+
+void GameMemoryService::PatchStaticArray(Byte newByte1, Byte newByte2)
+{
+    array<Byte>^ pattern = gcnew array<Byte> {
+        0x68, 0x00, 0x00, 0x00, 0x69, 0x00, 0x00, 0x00,
+        0xA1, 0x00, 0x00, 0x00, 0xA2, 0x00, 0x00, 0x00,
+        0xA3
+    };
+
+    array<Byte>^ replacement = gcnew array<Byte> {newByte1, newByte2};
+
+    bool success = pm->FindAndPatchBytes("HTLauncher.exe", pattern, replacement, 0);
+    if (!success)
+        return;
+}

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable XxxxxXxxxxxTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Speed Correr Graduable"</Description>
+      <LastState Value="1.944161489E-41" RealAddress="1018D60C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>808000</Color>
+      <VariableType>Float</VariableType>
+      <Address>1018D60C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"Maves- Speed x1 - Tantra Isuyo"</Description>
+      <LastState/>
+      <Color>808000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov eax,[eax+50]
+
+originalcode:
+//mov eax,[eax+18]
+mov ecx,[ebp+10]
+
+exit:
+jmp returnhere
+
+"HTLauncher.exe"+7036:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"HTLauncher.exe"+7036:
+mov eax,[eax+18]
+mov ecx,[ebp+10]
+//Alt: db 8B 40 18 8B 4D 10
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"Maves - Corte Animacion - Tantra Isuyo"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+//mov eax,[eax+0C]
+mov eax,-1
+originalcode:
+//mov eax,[eax+20]
+mov ecx,[ebp+10]
+
+exit:
+jmp returnhere
+
+"HTLauncher.exe"+70C2:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"HTLauncher.exe"+70C2:
+mov eax,[eax+20]
+mov ecx,[ebp+10]
+//Alt: db 8B 40 20 8B 4D 10
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"Maves- Full rango Tantra isuyo"</Description>
+      <LastState/>
+      <Color>808000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov eax,[eax+0B]
+
+originalcode:
+//mov eax,[eax+0C]
+mov ecx,[ebp+10]
+
+exit:
+jmp returnhere
+
+"HTLauncher.exe"+714E:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"HTLauncher.exe"+714E:
+mov eax,[eax+0C]
+mov ecx,[ebp+10]
+//Alt: db 8B 40 0C 8B 4D 10
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"Full Corte Hielo area"</Description>
+      <LastState/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov eax,[eax+0C]
+
+originalcode:
+//mov eax,[eax+1C]
+mov ecx,[ebp+10]
+
+exit:
+jmp returnhere
+
+"HTLauncher.exe"+707C:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"HTLauncher.exe"+707C:
+mov eax,[eax+1C]
+mov ecx,[ebp+10]
+//Alt: db 8B 40 1C 8B 4D 10
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Rango Ataque Area"</Description>
+      <LastState/>
+      <Color>400000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov eax,[eax+50]
+
+originalcode:
+//mov eax,[eax+10]
+mov ecx,[ebp+10]
+
+exit:
+jmp returnhere
+
+"HTLauncher.exe"+6DF4:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"HTLauncher.exe"+6DF4:
+db 8B 40 10 8B 4D 10
+//mov eax,[eax+10]
+//mov ecx,[ebp+10]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"Graduar Rango"</Description>
+      <LastState Value="4166" RealAddress="1000714E"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>008000</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>HTLauncher.exe+714E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Graduar Speed Skill"</Description>
+      <LastState Value="1046" RealAddress="10007036"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>800080</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>HTLauncher.exe+7036</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"Graduar Corte Animacion"</Description>
+      <LastState Value="1046" RealAddress="100070C2"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>400040</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>HTLauncher.exe+70C2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Graduar Ataque Area"</Description>
+      <LastState Value="10E8" RealAddress="10006DF4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>400000</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>HTLauncher.exe+6DF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+00114D78</Address>
+      <Offsets>
+        <Offset>60</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+00114D8C</Address>
+      <Offsets>
+        <Offset>68</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"pointerscan result"</Description>
+      <LastState Value="1.743563189E-6" RealAddress="10A0C47C"/>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+00113958</Address>
+      <Offsets>
+        <Offset>6C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+00113CC8</Address>
+      <Offsets>
+        <Offset>74</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+0011C8F4</Address>
+      <Offsets>
+        <Offset>B4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+00113D50</Address>
+      <Offsets>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"pointerscan result"</Description>
+      <LastState Value="0" RealAddress="208F8CB9"/>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+00110694</Address>
+      <Offsets>
+        <Offset>C0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+00110704</Address>
+      <Offsets>
+        <Offset>D8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+0011FFCC</Address>
+      <Offsets>
+        <Offset>DC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"HTLauncher.exe"+001208D0</Address>
+      <Offsets>
+        <Offset>10C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="10A0C00C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HTLauncher.exe+A0C00C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="10A0C010"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HTLauncher.exe+A0C010</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"cam"</Description>
+      <LastState Value="0" RealAddress="10A0C014"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HTLauncher.exe+A0C014</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-0.5951476693" RealAddress="207FD590"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+7FD590</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-0.6162267327" RealAddress="207FD598"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+7FD598</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-0.5951985717" RealAddress="208B0138"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+8B0138</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-0.5157940388" RealAddress="208B0148"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+8B0148</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-0.616194129" RealAddress="208B0158"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+8B0158</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-0.3583208323" RealAddress="208B0190"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+8B0190</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>70</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0.8567125797" RealAddress="208B0194"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+8B0194</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>71</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-0.3710116446" RealAddress="208B0198"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>HT3DHeaven.dll+8B0198</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>Info about this table:
+</Comments>
+  <LuaScript>-- Direcciones de memoria proporcionadas
+local eax_address = 0x70C2  -- Dirección base de eax
+local ebp_address = 0x6FB6  -- Dirección base de ebp
+
+-- Función para replicar el movimiento del trainer
+function replicarMovimiento()
+    local eax_value = readInteger("[HTLauncher.exe+" .. string.format("%X", eax_address) .. "]")  -- Leer el valor en [eax+20]
+    local ecx_value = 0x00005000
+    eax_value = math.floor(eax_value * ecx_value / ecx_value)  -- Realizar el cálculo similar al trainer
+    writeInteger("[HTLauncher.exe+" .. string.format("%X", ebp_address + 0x10) .. "]", eax_value)  -- Escribir el nuevo valor en [ebp+10]
+end
+
+-- Llamar a la función para replicar el movimiento del trainer
+replicarMovimiento()
+
+</LuaScript>
+</CheatTable>

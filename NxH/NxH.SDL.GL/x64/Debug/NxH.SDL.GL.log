@@ -1,0 +1,14 @@
+﻿SDL2main.lib(SDL_windows_main.obj) : error LNK2005: ya se definió WinMain en main.obj
+main.obj : error LNK2019: símbolo externo nk_begin sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo nk_end sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo nk_layout_row_dynamic sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo nk_label sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo nk_rect sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo "struct nk_context * __cdecl nk_sdl_init(struct SDL_Window *)" (?nk_sdl_init@@YAPEAUnk_context@@PEAUSDL_Window@@@Z) sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo "void __cdecl nk_sdl_font_stash_begin(struct nk_font_atlas * *)" (?nk_sdl_font_stash_begin@@YAXPEAPEAUnk_font_atlas@@@Z) sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo "void __cdecl nk_sdl_font_stash_end(void)" (?nk_sdl_font_stash_end@@YAXXZ) sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo "int __cdecl nk_sdl_handle_event(union SDL_Event *)" (?nk_sdl_handle_event@@YAHPEATSDL_Event@@@Z) sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo "void __cdecl nk_sdl_render(enum nk_anti_aliasing)" (?nk_sdl_render@@YAXW4nk_anti_aliasing@@@Z) sin resolver al que se hace referencia en la función WinMain
+main.obj : error LNK2019: símbolo externo "void __cdecl nk_sdl_shutdown(void)" (?nk_sdl_shutdown@@YAXXZ) sin resolver al que se hace referencia en la función WinMain
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: símbolo externo SDL_main sin resolver al que se hace referencia en la función main_getcmdline
+D:\Eduardo\projects\git\study\tantra\dll\NxH\x64\Debug\NxH.SDL.GL.exe : fatal error LNK1120: 12 externos sin resolver

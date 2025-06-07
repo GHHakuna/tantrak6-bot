@@ -28,4 +28,6 @@ public:
 	void WriteInt(String^ name, int value);
 	void WriteFloat(String^ name, float value);
 	void WriteBool(String^ name, bool value);
+
+	bool FindAndPatchBytes(String^ name, array<Byte>^ pattern, array<Byte>^ replace, int offset);
 };

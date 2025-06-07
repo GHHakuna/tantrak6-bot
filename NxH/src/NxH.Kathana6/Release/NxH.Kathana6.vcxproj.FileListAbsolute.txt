@@ -1,3 +1,0 @@
-D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6\Release\NxH.Kathana6.vcxproj.AssemblyReference.cache
-D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6\Release\NxHKathana6.MenuView.resources
-D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6\Release\NxH.Kathana6.vcxproj.GenerateResource.cache

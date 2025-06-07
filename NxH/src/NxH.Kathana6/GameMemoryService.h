@@ -18,4 +18,6 @@ public:
     float GetCoordX();
     float GetCoordY();
     float GetCoordZ();
+
+    void PatchStaticArray(Byte newByte1, Byte newByte2);
 };

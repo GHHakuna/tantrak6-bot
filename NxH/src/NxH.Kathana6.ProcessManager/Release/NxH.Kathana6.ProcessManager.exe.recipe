@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Eduardo\projects\git\study\tantra\dll\NxH\Release\NxH.Kathana6.ProcessManager.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6.ProcessManager\nuklear_backend.cpp</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,4 +1,0 @@
-mobs id
-5000	bindu
-36	vasabhum
-81	vasabhum caura

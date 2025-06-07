@@ -1,0 +1,12 @@
+﻿  nuklear_backend.cpp
+D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6.ProcessManager\nuklear_gdi.h(233,19): warning C4101: 'gRect': variable local sin referencia
+  (compilando archivo de origen "nuklear_backend.cpp")
+  
+  blur.cpp
+D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6.ProcessManager\blur.cpp(50,63): warning C4838: la conversión de 'DWORD' en 'int' requiere una conversión de restricción
+  main.cpp
+  style.cpp
+  ui.cpp
+  window.cpp
+  Generando código...
+  NxH.Kathana6.ProcessManager.vcxproj -> D:\Eduardo\projects\git\study\tantra\dll\NxH\Debug\NxH.Kathana6.ProcessManager.exe

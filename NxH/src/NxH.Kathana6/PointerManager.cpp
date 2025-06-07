@@ -1,5 +1,7 @@
 #include <vcclr.h> 
+#include <Psapi.h> 
 #include "PointerManager.h"
+#pragma comment(lib, "Psapi.lib")
 
 PointerManager::PointerManager() {
     pointers = gcnew Dictionary<String^, PointerInfo^>();
@@ -81,4 +83,48 @@ void PointerManager::WriteBool(String^ name, bool value) {
     if (!base) return;
     DWORD addr = ResolveAddress(base + info->baseOffset, info->offsets);
     *(bool*)addr = value;
+}
+
+bool PointerManager::FindAndPatchBytes(String^ moduleName, array<Byte>^ pattern, array<Byte>^ replace, int offset)
+{
+    // Convertir nombre de módulo a LPCWSTR
+    IntPtr ptrToModuleName = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(moduleName);
+    LPCWSTR modName = (LPCWSTR)ptrToModuleName.ToPointer();
+
+    // Obtener el módulo base
+    HMODULE hModule = GetModuleHandle(modName);
+    System::Runtime::InteropServices::Marshal::FreeHGlobal(ptrToModuleName);
+
+    if (!hModule) return false;
+
+    BYTE* baseAddress = reinterpret_cast<BYTE*>(hModule);
+
+
+    const SIZE_T scanSize = 0x100000;
+
+    for (SIZE_T i = 0; i < scanSize - pattern->Length; ++i)
+    {
+        bool match = true;
+        for (int j = 0; j < pattern->Length; ++j)
+        {
+            BYTE expected = pattern[j];
+            if (expected != 0xCC && baseAddress[i + j] != expected)
+            {
+                match = false;
+                break;
+            }
+        }
+
+        if (match)
+        {
+            for (int k = 0; k < replace->Length; ++k)
+            {
+                baseAddress[i + offset + k] = replace[k];
+            }
+
+            return true;
+        }
+    }
+
+    return false;
 }

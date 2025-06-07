@@ -1,0 +1,14 @@
+﻿  nuklear_backend.cpp
+D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6.ProcessManager\nuklear_gdi.h(233,19): warning C4101: 'gRect': variable local sin referencia
+  (compilando archivo de origen "nuklear_backend.cpp")
+  
+  blur.cpp
+D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6.ProcessManager\blur.cpp(50,63): warning C4838: la conversión de 'DWORD' en 'int' requiere una conversión de restricción
+  main.cpp
+  style.cpp
+  ui.cpp
+  window.cpp
+  Generando código...
+nuklear_backend.obj : error LNK2019: símbolo externo __imp_AlphaBlend sin resolver al que se hace referencia en la función "void __cdecl nk_gdi_rect_multi_color(struct HDC__ *,short,short,unsigned short,unsigned short,struct nk_color,struct nk_color,struct nk_color,struct nk_color)" (?nk_gdi_rect_multi_color@@YAXPEAUHDC__@@FFGGUnk_color@@111@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Eduardo\projects\git\study\tantra\dll\NxH\x64\Debug\NxH.Kathana6.ProcessManager.exe : fatal error LNK1120: 2 externos sin resolver

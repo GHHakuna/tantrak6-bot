@@ -197,6 +197,7 @@ namespace NxHKathana6 {
 
 		}
 #pragma endregion
+
 	private: System::Void MenuView_Load(System::Object^ sender, System::EventArgs^ e) {
 		gs = gcnew GameMemoryService();
 

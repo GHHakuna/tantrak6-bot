@@ -2,8 +2,436 @@
   main.cpp
   MenuView.cpp
   PointerManager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(132,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(145,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(145,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(146,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(154,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(154,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(155,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(171,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(179,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(179,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(180,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(196,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(196,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(197,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(209,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(209,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(210,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(227,12): error C3646: 'lpBaseOfDll': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(227,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(228,11): error C3646: 'SizeOfImage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(228,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(229,12): error C3646: 'EntryPoint': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(229,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(232,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(232,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(233,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(247,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(247,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(248,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(259,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(259,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(260,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(266,12): error C3646: 'FaultingPc': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(266,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(267,12): error C3646: 'FaultingVa': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(267,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(272,15): error C3646: 'FaultingThreadId': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(272,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(273,15): error C3646: 'Flags': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(273,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(276,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(276,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(277,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(284,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(284,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(285,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(292,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(292,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(293,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(301,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(301,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(302,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(316,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(316,1): error C2086: 'int BOOL': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(131,1):
+      vea la declaración de 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(317,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(324,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(324,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(325,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(332,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(332,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(333,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(346,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(346,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(347,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(354,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(354,1): error C2086: 'int DWORD': nueva definición
+  (compilando archivo de origen "PointerManager.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(170,1):
+      vea la declaración de 'DWORD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(355,1): error C2146: error de sintaxis: falta ';' delante del identificador 'WINAPI'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(385,15): error C3646: 'Flags': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(385,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(387,19): error C3646: 'Protection': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(387,30): error C2059: error de sintaxis: ':'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(387,30): error C2334: símbolos (token) inesperados delante de ':'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(400,15): error C3646: 'NumberOfEntries': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(400,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(401,29): error C3646: 'WorkingSetInfo': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(401,43): error C2143: error de sintaxis: falta ',' delante de '['
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(401,46): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(405,15): error C3646: 'Flags': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(405,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(408,23): error C3646: 'Valid': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(408,29): error C2059: error de sintaxis: ':'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(408,29): error C2334: símbolos (token) inesperados delante de ':'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(423,23): error C3646: 'Valid': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(423,29): error C2059: error de sintaxis: ':'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(423,29): error C2334: símbolos (token) inesperados delante de ':'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(432,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(437,11): error C3646: 'VirtualAddress': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(437,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(438,32): error C3646: 'VirtualAttributes': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(438,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(449,1): error C3646: 'WINAPI': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(450,1): error C3646: 'K32QueryWorkingSet': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(450,16): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(454,6): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(457,1): error C3646: 'WINAPI': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(458,1): error C3646: 'K32QueryWorkingSetEx': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(458,18): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(462,6): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(467,11): error C3646: 'cb': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(467,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(468,11): error C3646: 'PageFaultCount': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(468,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(469,12): error C3646: 'PeakWorkingSetSize': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(469,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(470,12): error C3646: 'WorkingSetSize': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(470,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(471,12): error C3646: 'QuotaPeakPagedPoolUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(471,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(472,12): error C3646: 'QuotaPagedPoolUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(472,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(473,12): error C3646: 'QuotaPeakNonPagedPoolUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(473,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(474,12): error C3646: 'QuotaNonPagedPoolUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(474,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(475,12): error C3646: 'PagefileUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(475,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(476,12): error C3646: 'PeakPagefileUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(476,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(502,11): error C3646: 'cb': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(502,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(503,11): error C3646: 'PageFaultCount': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(503,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(504,12): error C3646: 'PeakWorkingSetSize': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(504,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(505,12): error C3646: 'WorkingSetSize': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(505,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(506,12): error C3646: 'QuotaPeakPagedPoolUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(506,5): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(507,12): error C3646: 'QuotaPagedPoolUsage': especificador de invalidación desconocido
+  (compilando archivo de origen "PointerManager.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\Psapi.h(507,12): error C1003: el recuento de errores supera 100; se detiene la compilación
+  (compilando archivo de origen "PointerManager.cpp")
+  
   .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generando código...
 D:\Eduardo\projects\git\study\tantra\dll\NxH\src\NxH.Kathana6\main.cpp(1,1): warning C4747: Llamada a '_DllMain@12' administrado: no se puede ejecutar código administrado bajo el bloqueo del cargador, incluido el punto de entrada del archivo DLL y las llamadas alcanzadas desde dicho punto
-  GameMemoryService.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-  NxH.Kathana6.vcxproj -> D:\Eduardo\projects\git\study\tantra\dll\NxH\Debug\NxH.Kathana6.dll

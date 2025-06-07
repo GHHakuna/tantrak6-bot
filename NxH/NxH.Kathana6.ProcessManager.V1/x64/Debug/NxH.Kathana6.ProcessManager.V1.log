@@ -1,0 +1,24 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: El directorio intermedio (x64\Debug\) contiene archivos compartidos de otro proyecto (NxH.Kathana6.ProcessManager.V1.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+   Qt/MSBuild: 3.4.0.1
+  Reading Qt configuration (C:/Qt/6.9.0/msvc2022_64/bin/qmake)
+   Qt: 6.9.0
+  uic NxHK6PM.ui
+  rcc NxHK6PM.qrc
+  moc NxHK6PM.h
+   RCC: Warning: No resources in 'D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\NxHK6PM.qrc'.
+  GameMemoryService.cpp
+  PointerManager.cpp
+  NxHK6PM.cpp
+  main.cpp
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\GameMemoryService.cpp(1,1): warning C4828: El archivo contiene un carácter que comienza en el desplazamiento 0x1e4 y que no es válido en el juego de caracteres del origen actual (página de códigos 65001).
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(1,1): warning C4828: El archivo contiene un carácter que comienza en el desplazamiento 0x252 y que no es válido en el juego de caracteres del origen actual (página de códigos 65001).
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(41,36): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'LPCVOID' de mayor tamaño
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(64,30): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'LPCVOID' de mayor tamaño
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(75,30): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'LPCVOID' de mayor tamaño
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(86,30): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'LPCVOID' de mayor tamaño
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(96,31): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'LPVOID' de mayor tamaño
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(105,31): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'LPVOID' de mayor tamaño
+D:\Eduardo\projects\git\study\tantra\dll\NxH\NxH.Kathana6.ProcessManager.V1\PointerManager.cpp(114,31): warning C4312: 'conversión de tipo': conversión de 'DWORD' a 'LPVOID' de mayor tamaño
+  qrc_NxHK6PM.cpp
+  moc_NxHK6PM.cpp
+  NxH.Kathana6.ProcessManager.V1.vcxproj -> D:\Eduardo\projects\git\study\tantra\dll\NxH\Debug\NxH.Kathana6.Qt.ProcessManager.V1\x64\NxH.Kathana6.Qt.ProcessManager.V1.exe

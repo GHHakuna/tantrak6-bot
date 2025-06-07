@@ -12,9 +12,10 @@
         <CheatEntry>
           <ID>7</ID>
           <Description>"hp current ptr"</Description>
+          <LastState Value="67" RealAddress="41948124"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>114</Offset>
           </Offsets>
@@ -22,8 +23,10 @@
         <CheatEntry>
           <ID>6</ID>
           <Description>"hp max ptr"</Description>
+          <LastState Value="67" RealAddress="41948120"/>
+          <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>110</Offset>
           </Offsets>
@@ -31,8 +34,10 @@
         <CheatEntry>
           <ID>11</ID>
           <Description>"mp max ptr"</Description>
+          <LastState Value="42" RealAddress="1A251974"/>
+          <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F7A0</Address>
+          <Address>"HTLauncher.exe"+00A0C440</Address>
           <Offsets>
             <Offset>32C</Offset>
           </Offsets>
@@ -40,9 +45,10 @@
         <CheatEntry>
           <ID>12</ID>
           <Description>"mp current ptr"</Description>
+          <LastState Value="42" RealAddress="1A251978"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F7A0</Address>
+          <Address>"HTLauncher.exe"+00A0C440</Address>
           <Offsets>
             <Offset>330</Offset>
           </Offsets>
@@ -50,9 +56,10 @@
         <CheatEntry>
           <ID>16</ID>
           <Description>"mob id ptr"</Description>
+          <LastState Value="8" RealAddress="41948190"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>180</Offset>
           </Offsets>
@@ -60,9 +67,10 @@
         <CheatEntry>
           <ID>17</ID>
           <Description>"trigger ptr"</Description>
+          <LastState Value="0" RealAddress="4194818C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>17c</Offset>
           </Offsets>
@@ -70,9 +78,10 @@
         <CheatEntry>
           <ID>18</ID>
           <Description>"skill id"</Description>
+          <LastState Value="0" RealAddress="41948160"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>150</Offset>
           </Offsets>
@@ -80,9 +89,10 @@
         <CheatEntry>
           <ID>21</ID>
           <Description>"mark"</Description>
+          <LastState Value="0" RealAddress="41948158"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>148</Offset>
           </Offsets>
@@ -90,9 +100,10 @@
         <CheatEntry>
           <ID>23</ID>
           <Description>"last dmg"</Description>
+          <LastState Value="0" RealAddress="4194811C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>10c</Offset>
           </Offsets>
@@ -100,10 +111,11 @@
         <CheatEntry>
           <ID>22</ID>
           <Description>"[4] no gasta mp / no delay | [2] no skill"</Description>
+          <LastState Value="0" RealAddress="419481AC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>00FF00</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>19c</Offset>
           </Offsets>
@@ -111,27 +123,29 @@
         <CheatEntry>
           <ID>25</ID>
           <Description>"saltar 3 ( 2 -&gt; 4) no delay"</Description>
+          <LastState Value="1" RealAddress="419481E8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>00FF00</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"HTLauncher.exe"+00A1F6B0</Address>
+          <Address>"HTLauncher.exe"+00A0C350</Address>
           <Offsets>
             <Offset>1D8</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
           <ID>73</ID>
-          <Description>"x"</Description>
+          <Description>"x nw"</Description>
+          <LastState Value="-1.231452889E15" RealAddress="74001620"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
-          <Address>"HTLauncher.exe"+0003272C</Address>
+          <Address>"HTLauncher.exe"+000232CC</Address>
           <Offsets>
             <Offset>A8</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
           <ID>74</ID>
-          <Description>"z"</Description>
+          <Description>"z nw"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>"HTLauncher.exe"+0003272C</Address>
@@ -141,7 +155,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>75</ID>
-          <Description>"y"</Description>
+          <Description>"y nw"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>"HTLauncher.exe"+0003272C</Address>
@@ -155,180 +169,57 @@
       <ID>9</ID>
       <Description>"absolutos"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <Address/>
       <CheatEntries>
         <CheatEntry>
           <ID>3</ID>
           <Description>"hp max"</Description>
+          <LastState Value="67" RealAddress="10A51C40"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>HTLauncher.exe+A64Fa0</Address>
+          <Address>HTLauncher.exe+A51C40</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>4</ID>
           <Description>"mp max"</Description>
+          <LastState Value="42" RealAddress="10A51C4C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>HTLauncher.exe+A64fac</Address>
+          <Address>HTLauncher.exe+A51C4C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>19</ID>
           <Description>"atk max"</Description>
+          <LastState Value="15" RealAddress="10A51C6C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>HTLauncher.exe+A64FCC</Address>
+          <Address>HTLauncher.exe+A51C6C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>20</ID>
           <Description>"atk min"</Description>
+          <LastState Value="13" RealAddress="10A51C68"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>HTLauncher.exe+A64FC8</Address>
+          <Address>HTLauncher.exe+A51C68</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>36</ID>
-      <Description>"z camara"</Description>
-      <VariableType>Float</VariableType>
-      <Address>HTLauncher.exe+A20408</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>44</ID>
-      <Description>"xx"</Description>
-      <VariableType>Float</VariableType>
-      <Address>2AABEF9C</Address>
-      <Hotkeys>
-        <Hotkey>
-          <Action>Set Value</Action>
-          <Keys>
-            <Key>122</Key>
-          </Keys>
-          <Value>4142.5</Value>
-          <ID>0</ID>
-        </Hotkey>
-      </Hotkeys>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>46</ID>
-      <Description>"xx shadow"</Description>
-      <VariableType>Float</VariableType>
-      <Address>3191C9C8</Address>
-      <Hotkeys>
-        <Hotkey>
-          <Action>Set Value</Action>
-          <Keys>
-            <Key>122</Key>
-          </Keys>
-          <Value>4142.5</Value>
-          <ID>0</ID>
-        </Hotkey>
-      </Hotkeys>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>54</ID>
-      <Description>"yy"</Description>
-      <VariableType>Float</VariableType>
-      <Address>2AABEFA4</Address>
-      <Hotkeys>
-        <Hotkey>
-          <Action>Set Value</Action>
-          <Keys>
-            <Key>122</Key>
-          </Keys>
-          <Value>6222.5</Value>
-          <ID>0</ID>
-        </Hotkey>
-      </Hotkeys>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>57</ID>
-      <Description>"yy shadow"</Description>
-      <VariableType>Float</VariableType>
-      <Address>3191C9D0</Address>
-      <Hotkeys>
-        <Hotkey>
-          <Action>Set Value</Action>
-          <Keys>
-            <Key>122</Key>
-          </Keys>
-          <Value>6222.5</Value>
-          <ID>0</ID>
-        </Hotkey>
-      </Hotkeys>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>58</ID>
-      <Description>"z +50"</Description>
-      <VariableType>Float</VariableType>
-      <Address>03E75DA4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>59</ID>
-      <Description>"z +50"</Description>
-      <VariableType>Float</VariableType>
-      <Address>04BF0EA4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>60</ID>
-      <Description>"z +50"</Description>
-      <VariableType>Float</VariableType>
-      <Address>05EFB664</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>61</ID>
-      <Description>"z +50"</Description>
-      <VariableType>Float</VariableType>
-      <Address>1939B210</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>63</ID>
-      <Description>"zz"</Description>
-      <VariableType>Float</VariableType>
-      <Address>HTLauncher.exe+A20404</Address>
-      <Hotkeys>
-        <Hotkey>
-          <Action>Set Value</Action>
-          <Keys>
-            <Key>122</Key>
-          </Keys>
-          <Value>104.470871</Value>
-          <ID>0</ID>
-        </Hotkey>
-      </Hotkeys>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>72</ID>
-      <Description>"z camera"</Description>
-      <VariableType>Float</VariableType>
-      <Address>"HTLauncher.exe"+0003272C</Address>
-      <Offsets>
-        <Offset>B4</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>76</ID>
-      <Description>"No description"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>161E7344</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>77</ID>
       <Description>"No description"</Description>
+      <LastState Value="42" RealAddress="10A51C4C"/>
       <VariableType>4 Bytes</VariableType>
-      <Address>HTLauncher.exe+A51C40</Address>
+      <Address>HTLauncher.exe+A51C4C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>78</ID>
-      <Description>"pointerscan result"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"HTLauncher.exe"+00A0C440</Address>
-      <Offsets>
-        <Offset>334</Offset>
-      </Offsets>
+      <Description>"cam"</Description>
+      <LastState Value="200" RealAddress="10A0D014"/>
+      <VariableType>Float</VariableType>
+      <Address>HTLauncher.exe+A0D014</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
